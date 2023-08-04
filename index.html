@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <p>
+            Calculadora, comece a calcular agora
+        </p>
+        <div class="calculator">
+            <div class="calculator__display"></div>
+
+            <div class="calculator__keys">
+                <button class="key--operator" data-action="add">+</button>
+                <button class="key--operator" data-action="subtract">-</button>
+                <button class="key--operator" data-action="multiply">*</button>
+                <button class="key--operator" data-action="divide">/</button>
+                <button class="key--numeric">7</button>
+                <button class="key--numeric">8</button>
+                <button class="key--numeric">9</button>
+                <button class="key--numeric">4</button>
+                <button class="key--numeric">5</button>
+                <button class="key--numeric">6</button>
+                <button class="key--numeric">1</button>
+                <button class="key--numeric">2</button>
+                <button class="key--numeric">3</button>
+                <button class="key--numeric">0</button>
+                <button class="key--dot" data-action="decimal">.</button>
+                <button class="key--clear" data-action="clear">AC</button>
+                <button class="key--equal" data-action="calculate">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
